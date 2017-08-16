@@ -62,6 +62,7 @@
                     </form>
                 </div>
             </div>
+            <a href="/login/twitter" class="btn btn-primary" >Twitterでログイン</a>
         </div>
     </div>
 </div>
