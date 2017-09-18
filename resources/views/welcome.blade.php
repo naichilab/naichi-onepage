@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        <link rel="stylesheet" href="css/app.css"/>
+        <script type="text/javascript">
+            window.Laravel = window.Laravel || {};
+            window.Laravel.csrfToken = "{{csrf_token()}}";
+        </script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -78,6 +83,11 @@
             @endif
 
             <div class="content">
+
+                <div id="app">
+                    <example></example>
+                </div>
+
                 <div class="title m-b-md">
                     Laravel
                 </div>
@@ -91,5 +101,8 @@
                 </div>
             </div>
         </div>
+
+        <script src="js/app.js"></script>
+
     </body>
 </html>
